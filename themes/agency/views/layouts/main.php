@@ -372,6 +372,7 @@ $("#btnExpert").click(function(){
         document.getElementById('journey-culture').style.display = 'none';
         // $("#portfolio").addClass("wow slideInDown");
         // document.getElementById('portfolio').focus();
+        
         history.replaceState({}, document.title, window.location.pathname);
         // var loc = window.location.href,
         //     index = loc.indexOf('#');

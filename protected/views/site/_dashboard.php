@@ -1,7 +1,7 @@
 <!-- Dashboard Section -->
 
 <div id="<?php echo $isidashboard->idkategori; ?>">
-    <section id="team" class="bg-custom">
+    <section id="dashboardx" class="bg-custom">
         <div class="container">
             <?php
             if(isset($isidashboard)){
