@@ -37,8 +37,7 @@
                         print_r($arr_unit);
                         echo "</pre>";
                         exit();
-                        */                        
-
+                        */       
                         if(isset($dashboard)){
                             foreach($dashboard as $key=>$val){
                         ?>
@@ -84,7 +83,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <!-- <img src="<?php echo Yii::app()->createUrl('/Subkategori/displayImage', array('id'=>$val->idsubkategori)); ?>" class="img-responsive" alt=""> -->
+                            <!-- <img src="<?php //echo Yii::app()->createUrl('/Subkategori/displayImage', array('id'=>$val->idsubkategori)); ?>" class="img-responsive" alt=""> //-->
                         </div>
                         <?php
                             }

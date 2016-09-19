@@ -56,7 +56,7 @@
 		  <!-- <ol class="carousel-indicators">
 		    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
 		    <li data-target="#mycarousel" data-slide-to="1"></li>
-		  </ol> -->
+		  </ol>  -->
 
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
@@ -168,7 +168,8 @@
 	$this->renderPartial("_expert", array("expertknow"=>$expertknow, "isiexpertknow"=>$isiexpertknow));
 	//$this->renderPartial("_testimoni2", array("testimoni"=>$testimoni));
 	$this->renderPartial("_gallery4", array("galleri"=>$galleri, "isigalleri"=>$isigalleri));
-	if(!Yii::app()->user->isGuest){ 
+	//if(!Yii::app()->user->isGuest){ 
+	if(isset(Yii::app()->user->id)){ 
     $this->renderPartial("_dashboard", array("dashboard"=>$dashboard, "isidashboard"=>$isidashboard, 
 						 "direktorat"=>$direktorat, "divisi"=>$divisi, "witel"=>$witel));
 	}

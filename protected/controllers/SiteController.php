@@ -151,6 +151,7 @@ public function actionIndex()
       $testimoni=Testimoni::model()->findAll($crita);
 	
       
+      
       //echo "<pre>";
       // print_r($dashboard);
       //echo "</pre>";
